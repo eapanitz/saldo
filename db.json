@@ -1,0 +1,19 @@
+{
+  "posts": [
+	{
+		"responseCode": 200,
+		"promoAvailableInfo": [
+			{ "id":1, "promoName":"Recarga ABC", "availableData": 12.0 }
+		],
+		"planAvailableData": 3000.0
+		"dayUsedData": {
+			"usedPlanData": 100,
+			"usedPromoData": [
+			]
+		}
+	}
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
