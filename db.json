@@ -1,6 +1,7 @@
 {
   "posts": [
 	{
+		"id": 1,
 		"responseCode": 200,
 		"promoAvailableInfo": [
 			{ "id":1, "promoName":"Recarga ABC", "availableData": 12.0 }
