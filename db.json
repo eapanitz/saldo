@@ -3,25 +3,30 @@
 	{
 		"id": 1,
 		"responseCode": 200,
-		"promoAvailableInfo": [
-			{ "id":1, "promoName":"Recarga ABC", "availableData": 12.0 }
-		],
 		"planAvailableData": 3000.0,
-		"dayUsedData": {
-			"usedPlanData": 100.0,
-			"usedPromoData": [
-				{"id":1, "promoName" :"Recarga ABC", "usedData": 100.0}
-			]
-		},
+		"planTodayUsedData": 100.0,
+		"promosInfo": [
+			{ 
+				"id":1, 
+				"availableData": 12.0,
+				"todayUsedData": 100.0
+			}
+		],
 		"updateDate" : "19-06-2018 18:13:00"
 	},
 	{
 		"id": 2,
 		"responseCode": 200,
-		"promoInfo": [
-			{ "id":1, "promoName":"Recarga ABC", "totalData": 20.0, "renewalDate": "20-06-2018 10:00:00" }
+		"planName": "Movistar Vuela 30",
+		"planTotalData": 30000.0,
+		"promosInfo": [
+			{
+				"id":1, 
+				"promoName":"Recarga ABC", 
+				"totalData": 20.0, 
+				"renewalDate": "20-06-2018 10:00:00" 
+			}
 		],
-		"totalPlanData": 30000.0,
 		"unlimitedApps": [
 			"facebook", "whatsapp", "youtube", "pokemongo"
 		],
