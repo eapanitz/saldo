@@ -3,36 +3,44 @@
 	{
 		"id": 1,
 		"responseCode": 200,
-		"planAvailableData": 3000.0,
-		"planTodayUsedData": 100.0,
+		"updateDate" : "19-06-2018 18:13:00",
+		"planInfo": {
+			"id": 1,
+			"planAvailableData": 3000.0,
+			"planTodayUsedData": 100.0
+		},
 		"promosInfo": [
 			{ 
 				"id":1, 
 				"availableData": 12.0,
 				"todayUsedData": 100.0
 			}
-		],
-		"updateDate" : "19-06-2018 18:13:00"
+		]
 	},
 	{
 		"id": 2,
 		"responseCode": 200,
-		"planName": "Movistar Vuela 30",
-		"planTotalData": 30000.0,
+		"updateDate" : "19-06-2018 18:13:00",
+		"planInfo": {
+			"id": 1,
+			"planName": "Movistar Vuela 30",
+			"planTotalData": 30000.0,
+			"renewalDate" : "20-06-2018 10:00:00",
+			"paymentDueDate" : "15-06-2018 10:00:00",
+			"paymentAmount" : "50.00",
+			"unlimitedApps": [
+				"facebook", "whatsapp", "youtube", "pokemongo"
+			]
+		},
 		"promosInfo": [
 			{
 				"id":1, 
 				"promoName":"Recarga ABC", 
-				"totalData": 20.0, 
-				"renewalDate": "20-06-2018 10:00:00" 
+				"promoTotalData": 20.0, 
+				"renewalDate": "20-06-2018 10:00:00",
+				"renewalType": 100 
 			}
-		],
-		"unlimitedApps": [
-			"facebook", "whatsapp", "youtube", "pokemongo"
-		],
-		"renewalDate" : "20-06-2018 10:00:00",
-		"paymentDate" : "15-06-2018 10:00:00",
-		"updateDate" : "19-06-2018 18:13:00"
+		]
 	}
   ],
   "profile": {
